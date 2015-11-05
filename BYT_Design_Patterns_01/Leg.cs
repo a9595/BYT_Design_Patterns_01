@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace BYT_Design_Patterns_01
 {
-    class Leg
+    class Leg : BodyPart
     {
+        public Leg(Brain brain) : base(brain) { }
+
+        public void KickInTheHead()
+        {
+            Console.WriteLine("Kicked directly in the head with a leg. Knocked-out..");
+        }
     }
 }

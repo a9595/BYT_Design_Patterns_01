@@ -47,6 +47,7 @@
     <Compile Include="Brain.cs" />
     <Compile Include="Ears.cs" />
     <Compile Include="Eyes.cs" />
+    <Compile Include="Face.cs" />
     <Compile Include="Leg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
