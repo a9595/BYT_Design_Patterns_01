@@ -13,7 +13,9 @@ namespace BYT_Design_Patterns_01
 
         public void SeeSomething()
         {
-            Console.WriteLine("Enter what you see: ");
+            Console.WriteLine("Enter what you see (enter digit pls):");
+            Console.WriteLine("1 - Chuck Norris");
+            Console.WriteLine("2 - Normal bad guy");
             Picture = Console.ReadLine();
 
             Changed();

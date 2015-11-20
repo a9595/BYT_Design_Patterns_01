@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0569A0DA-F58C-48B4-AA71-123C52985E51}</ProjectGuid>
+    <ProjectGuid>{AF8F9AC0-DB32-44D3-BE09-C0E40C89708D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BYT_Design_Patterns_01</RootNamespace>
-    <AssemblyName>BYT_Design_Patterns_01</AssemblyName>
+    <RootNamespace>BYT_Design_Patterns_Builder</RootNamespace>
+    <AssemblyName>BYT_Design_Patterns_Builder</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BodyPart.cs" />
-    <Compile Include="Brain.cs" />
-    <Compile Include="Ears.cs" />
-    <Compile Include="Eyes.cs" />
-    <Compile Include="Face.cs" />
-    <Compile Include="Hand.cs" />
-    <Compile Include="Leg.cs" />
+    <Compile Include="BuyLaptop.cs" />
+    <Compile Include="GamingLaptopBuilder - Copy.cs" />
+    <Compile Include="GamingLaptopBuilder.cs" />
+    <Compile Include="Laptop.cs" />
+    <Compile Include="LaptopBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

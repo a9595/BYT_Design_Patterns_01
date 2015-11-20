@@ -13,7 +13,9 @@ namespace BYT_Design_Patterns_01
 
         public void HearSomething()
         {
-            Console.WriteLine("Enter what you hear:");
+            Console.WriteLine("Enter what you see (enter digit pls):");
+            Console.WriteLine("1 - stupid");
+            Console.WriteLine("2 - cool");
             Sound = Console.ReadLine();
 
             Changed();

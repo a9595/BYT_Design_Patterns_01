@@ -13,6 +13,7 @@ namespace BYT_Design_Patterns_01
         public Eyes Eyes { get; private set; }
         public Face Face { get; private set; }
         public Leg Leg { get; private set; }
+        public Hand Hand { get; private set; }
 
         public Brain()
         {
@@ -31,22 +32,36 @@ namespace BYT_Design_Patterns_01
         {
             var ears = bodyPart as Ears;
             var eyes = bodyPart as Eyes;
+            var leg = bodyPart as Leg;
             if (ears != null)
             {
                 var heardSounds = ears.Sound;
-                if (heardSounds.Contains("stupid"))
+                if (heardSounds.Contains("1")) //chuck norris
                 {
-                    //hit with leg
+                    Leg.KickInTheHead();
                 }
-                else if (heardSounds.Contains("cool"))
+                else if (heardSounds.Contains("2")) // normal person
                 {
                     Face.Smile();
+                    
                 }
             }
             else if (eyes != null)
             {
                 var seenPicture = eyes.Picture;
+                if (seenPicture.Contains("1")) //chuck norris
+                {
+                    Hand.Embrace();
+       
+                }
+                else  if(seenPicture.Contains("2")) // normal
+                {
+                    Leg.KickInTheHead();   
+                }
             }
+            
         }
+
+        
     }
 }
