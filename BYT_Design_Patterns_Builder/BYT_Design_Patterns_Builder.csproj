@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuyLaptop.cs" />
-    <Compile Include="GamingLaptopBuilder - Copy.cs" />
+    <Compile Include="WorkLaptopBuilder.cs" />
     <Compile Include="GamingLaptopBuilder.cs" />
     <Compile Include="Laptop.cs" />
     <Compile Include="LaptopBuilder.cs" />

@@ -24,9 +24,9 @@ namespace BYT_Design_Patterns_Builder
         {
             _laptopBuilder.CreateNewLaptop();
             _laptopBuilder.SetHDD();
+            _laptopBuilder.SetMemory();
             _laptopBuilder.SetProcessor();
-            _laptopBuilder.SetProcessor();
-            _laptopBuilder.SetHDD();
+            _laptopBuilder.SetMonitorResolution();
 
         }
     }
