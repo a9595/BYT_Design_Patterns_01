@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_Design_Patterns_01_Medi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_Design_Patterns_Builder", "BYT_Design_Patterns_Builder\BYT_Design_Patterns_Builder.csproj", "{AF8F9AC0-DB32-44D3-BE09-C0E40C89708D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYT_Design_Patterns_03_Momento", "BYT_Design_Patterns_03_Momento\BYT_Design_Patterns_03_Momento.csproj", "{25668157-DF7E-4D56-AFD8-4E8D8E97F26D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AF8F9AC0-DB32-44D3-BE09-C0E40C89708D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8F9AC0-DB32-44D3-BE09-C0E40C89708D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8F9AC0-DB32-44D3-BE09-C0E40C89708D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25668157-DF7E-4D56-AFD8-4E8D8E97F26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25668157-DF7E-4D56-AFD8-4E8D8E97F26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25668157-DF7E-4D56-AFD8-4E8D8E97F26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25668157-DF7E-4D56-AFD8-4E8D8E97F26D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

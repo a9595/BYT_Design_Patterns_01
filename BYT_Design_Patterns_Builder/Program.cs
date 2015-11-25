@@ -21,6 +21,8 @@ namespace BYT_Design_Patterns_Builder
             //give it to him 
             Laptop laptop = shopForYou.GetLaptop();
             Console.WriteLine(laptop.ToString());
+            Console.ReadLine();
+
 
         }
     }
